@@ -1,12 +1,12 @@
 import { Profile } from "./Profile/Profile";
-import user from "../user.json";
+import upcomingData from "../user.json";
 
-console.log(user)
+// console.log(upcomingData)
 
 export const App = () => {
   return (
     <>
-    <Profile />
+    <Profile user={upcomingData}/>
     </>
   );
 };
