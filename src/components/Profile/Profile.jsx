@@ -3,6 +3,9 @@ import {PropTypes} from 'prop-types'
 
 
 export const Profile = ({user}) => {
+
+    // console.log()
+
 const {username, tag, location, avatar, stats } = user
 
 // console.log(avatar)
