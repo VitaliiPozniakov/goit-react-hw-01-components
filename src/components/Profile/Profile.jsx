@@ -1,8 +1,9 @@
-import { Profile } from "./Profile.styled"
+import { Profile, Wraper } from "./Profile.styled"
+import {PropTypes} from 'prop-types'
 
 
-export const Profile = ({username, tag, location, avatar, fstats}) => {
-    return <Profile>
+export const Profile = ({user}) => {
+    return <Wraper>
     <div class="description">
       <img
         src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
@@ -28,5 +29,26 @@ export const Profile = ({username, tag, location, avatar, fstats}) => {
         <span class="quantity">3000</span>
       </li>
     </ul>
-  </Profile>
+  </Wraper>
 }
+
+
+Wraper.PropTypes = {
+    user: PropTypes.exact ({
+        username: PropTypes.string.isRequired,
+        tag: PropTypes.string.isRequired,
+        location: PropTypes.string.isRequired,
+         avatar: PropTypes.string.isRequired,
+         stats: PropTypes.exact({
+            followers: PropTypes.number.isRequired,
+            views: PropTypes.number.isRequired,
+            likes: PropTypes.number.isRequired,
+         })
+    })
+}
+
+
+
+
+
+// {username, tag, location, avatar, stats}
