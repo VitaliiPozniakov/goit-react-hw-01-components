@@ -1,9 +1,10 @@
-import { Avatar, Description, Name, Profile, Quantity, Tag, Wraper } from "./Profile.styled"
+import { Wraper, Description,  Avatar, Name, Tag, Location, Stats, Quantity, Label} from './Profile.styled'
 import {PropTypes} from 'prop-types'
 
 
 export const Profile = ({user}) => {
-    return <Wraper>
+    return (
+        <Wraper>
     <Description>
       <Avatar
         src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
@@ -29,6 +30,7 @@ export const Profile = ({user}) => {
       </li>
     </Stats>
   </Wraper>
+    )
 }
 
 
