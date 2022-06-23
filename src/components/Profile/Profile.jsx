@@ -1,34 +1,33 @@
-import { Profile, Wraper } from "./Profile.styled"
+import { Avatar, Description, Name, Profile, Quantity, Tag, Wraper } from "./Profile.styled"
 import {PropTypes} from 'prop-types'
 
 
 export const Profile = ({user}) => {
     return <Wraper>
-    <div class="description">
-      <img
+    <Description>
+      <Avatar
         src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
         alt="User avatar"
-        class="avatar"
       />
-      <p class="name">Petra Marica</p>
-      <p class="tag">@pmarica</p>
-      <p class="location">Salvador, Brasil</p>
-    </div>
+      <Name>Petra Marica</Name>
+      <Tag>@pmarica</Tag>
+      <Location>Salvador, Brasil</Location>
+    </Description>
   
-    <ul class="stats">
+    <Stats>
       <li>
-        <span class="label">Followers</span>
-        <span class="quantity">1000</span>
+        <Label>Followers</Label>
+        <Quantity>1000</Quantity>
       </li>
       <li>
-        <span class="label">Views</span>
-        <span class="quantity">2000</span>
+        <Label>Views</Label>
+        <Quantity>2000</Quantity>
       </li>
       <li>
-        <span class="label">Likes</span>
-        <span class="quantity">3000</span>
+        <Label>Likes</Label>
+        <Quantity>3000</Quantity>
       </li>
-    </ul>
+    </Stats>
   </Wraper>
 }
 
