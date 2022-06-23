@@ -2,11 +2,11 @@ import { Wraper, Description,  Avatar, Name, Tag, Location, Stats, Quantity, Lab
 import {PropTypes} from 'prop-types'
 
 
-export const Profile = ({user}) => {
+export const Profile = ({username, tag, location, avatar, stats }) => {
 
     // console.log()
 
-const {username, tag, location, avatar, stats } = user
+// const {username, tag, location, avatar, stats } = user
 
 // console.log(avatar)
 
