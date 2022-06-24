@@ -16,10 +16,11 @@ export const App = () => {
   avatar={user.avatar}
   stats={user.stats}/>
    
-       <Statistics
-       title = ''
-       stats = {statsData}
-       />
+
+
+<Statistics title="Upload stats" stats={statsData} />
+<Statistics stats={statsData} />
+
        </>
   );
 };
