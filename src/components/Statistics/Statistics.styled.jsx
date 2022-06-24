@@ -1,7 +1,9 @@
 import styled from "@emotion/styled";
 
 export const SectionStatistics = styled.section`
-padding-top: 45px;
+padding-top: 70px;
+
+
 
 `;
 
@@ -36,10 +38,6 @@ justify-content: center;
 flex-direction: column;
 flex-grow: 1;
 align-items: center;
-
-padding: 0px;
-margin: 0px;
-list-style: none;
 min-height: 60px;
 `;
 

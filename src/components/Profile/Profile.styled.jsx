@@ -1,10 +1,18 @@
 import styled from "@emotion/styled";
 
 export const Wraper = styled.div`
+width: 1200px;
+margin: 0 auto;
+padding-top: 25px;
+
+
+
 width:300px;
+
+border: 1px solid #000;
+
    
     margin: 0 auto;
-
 border: 1px solid rgba(238, 238, 238, 1);
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -19,6 +27,7 @@ text-align: center;
 export const Avatar = styled.img`
 width: 100px;
 border-radius: 50%;
+margin: 0 auto;
 `;
 
 
@@ -47,12 +56,8 @@ letter-spacing: 0.06em;
 `;
 
 export const Stats = styled.ul`
-
 display: flex;
 justify-content: center;
-
-
-
 padding: 0px;
 margin: 0px;
 list-style: none;
@@ -76,7 +81,6 @@ letter-spacing: 0.06em;
 ;
 
 export const ItemOfStats = styled.li`
-
 display: flex;
 flex-direction: column;
 background:  rgba(238, 238, 238, 1);
