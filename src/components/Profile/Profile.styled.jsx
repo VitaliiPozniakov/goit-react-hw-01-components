@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const Wraper = styled.div`
 width: 1200px;
 margin: 0 auto;
-padding-top: 25px;
+padding-top: 15px;
 
 
 
@@ -27,6 +27,7 @@ text-align: center;
 export const Avatar = styled.img`
 width: 100px;
 border-radius: 50%;
+border: 3px solid #e9eef3;
 margin: 0 auto;
 `;
 

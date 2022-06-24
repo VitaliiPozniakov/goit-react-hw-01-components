@@ -6,8 +6,28 @@ export const Item = styled.ul`
 `;
 
 
-export const Status = styled.span`
+export const StatusTrue = styled.span`
+display: block;
 
+width: 15px;
+height: 15px;
+margin-right: 20px;
+
+border-radius: 50%;
+background: green;
+
+
+`;
+
+export const StatusFalse= styled.span`
+display: block;
+
+width: 15px;
+height: 15px;
+margin-right: 20px;
+
+border-radius: 50%;
+background: red;
 
 `;
 
@@ -21,12 +41,3 @@ export const Name = styled.p`
 
 `;
 
-export const StatusTrue = styled.p`
-
-
-`;
-
-export const StatusFalse= styled.p`
-
-
-`;
