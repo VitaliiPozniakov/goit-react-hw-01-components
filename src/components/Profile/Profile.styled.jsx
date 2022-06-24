@@ -1,23 +1,16 @@
 import styled from "@emotion/styled";
 
+
 export const Wraper = styled.div`
 width: 1200px;
 margin: 0 auto;
 padding-top: 15px;
-
-
-
 width:300px;
-
 border: 1px solid #000;
-
-   
-    margin: 0 auto;
+margin: 0 auto;
 border: 1px solid rgba(238, 238, 238, 1);
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-
-
 `;
 
 export const Description = styled.div`

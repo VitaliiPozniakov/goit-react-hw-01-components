@@ -1,3 +1,4 @@
+import { Container } from 'Container.styled';
 import { Profile } from './Profile/Profile';
 import user from '../user.json';
 import { Statistics } from './Statistics/Statistics';
@@ -10,6 +11,7 @@ import friends from '../friends.json';
 export const App = () => {
   return (
     <>
+  <Container> Task 1
       <Profile
         username={user.username}
         tag={user.tag}
@@ -17,11 +19,16 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      </Container>
 
+      <Container> Task 2
       <Statistics title="Upload stats" stats={statsData} />
       <Statistics stats={statsData} />
+      </Container>
 
+      <Container> Task 3
       <FriendList friends={friends} />
+      </Container>
     </>
   );
 };

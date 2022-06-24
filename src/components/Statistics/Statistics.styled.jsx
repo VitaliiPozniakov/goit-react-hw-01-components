@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const SectionStatistics = styled.section`
-padding-top: 70px;
+padding-top: 20px;
 
 
 

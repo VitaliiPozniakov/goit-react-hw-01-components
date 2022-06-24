@@ -23,6 +23,7 @@ export const StatusTrue = styled.span`
   margin-right: 20px;
   border-radius: 50%;
   background: green;
+  margin-left: 5px;
 `;
 
 export const StatusFalse = styled.span`
@@ -32,6 +33,7 @@ export const StatusFalse = styled.span`
   margin-right: 20px;
   border-radius: 50%;
   background: red;
+  margin-left: 5px;
 `;
 
 export const Avatar = styled.img`
