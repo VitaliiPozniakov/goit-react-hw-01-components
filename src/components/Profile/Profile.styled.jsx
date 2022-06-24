@@ -5,9 +5,10 @@ width:300px;
    
     margin: 0 auto;
 
-border-left: 1px solid rgba(238, 238, 238, 1);
-border-right: 1px solid rgba(238, 238, 238, 1);
-border-bottom: 1px solid rgba(238, 238, 238, 1);
+border: 1px solid rgba(238, 238, 238, 1);
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
 
 `;
 

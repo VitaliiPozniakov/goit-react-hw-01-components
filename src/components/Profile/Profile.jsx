@@ -40,20 +40,18 @@ export const Profile = ({username, tag, location, avatar, stats }) => {
     )
 }
 
+Wraper.prototype = {
+    username: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    avatar: PropTypes.string,
+    stats: PropTypes.shape({
+      followers: PropTypes.number.isRequired,
+      views: PropTypes.number.isRequired,
+      likes: PropTypes.number.isRequired,
+    }),
+  };
 
-Wraper.propTypes = {
-    user: PropTypes.exact ({
-        username: PropTypes.string.isRequired,
-        tag: PropTypes.string.isRequired,
-        location: PropTypes.string.isRequired,
-         avatar: PropTypes.string.isRequired,
-         stats: PropTypes.exact({
-            followers: PropTypes.number.isRequired,
-            views: PropTypes.number.isRequired,
-            likes: PropTypes.number.isRequired,
-         })
-    })
-}
 
 
 
