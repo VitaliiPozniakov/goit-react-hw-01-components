@@ -32,7 +32,7 @@ export const App = () => {
       <FriendList friends={friends} />
       </Container>
 
-      <Container> Task 3
+      <Container> Task 4
       <TransactionHistory items={transactions} />
       </Container>
     </>
